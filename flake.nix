@@ -20,10 +20,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.nodejs-16_x
-            pkgs.nodePackages.pnpm
-            # pkgs.yarn
-            pkgs.nodePackages.typescript
-            pkgs.nodePackages.typescript-language-server
+            nodePackages.tailwindcss
           ];
         };
       });
