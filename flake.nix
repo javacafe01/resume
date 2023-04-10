@@ -20,7 +20,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.nodejs-16_x
-            nodePackages.tailwindcss
+            pkgs.nodePackages.tailwindcss
           ];
         };
       });
